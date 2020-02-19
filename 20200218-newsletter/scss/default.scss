@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
 $font: "Roboto", sans-serif;
 $color: (
-  2: #eb6662,
-  3: #1d8f94,
-  4: #203d85,
-  5: #eb6662,
-  6: #1d8f94,
-  7: #203d85
+  3: #eb6662,
+  4: #1d8f94,
+  5: #203d85,
+  6: #eb6662,
+  7: #1d8f94,
+  8: #203d85
 );
 body,
 html {
@@ -38,6 +38,14 @@ table.container {
       }
     }
     td {
+      &.social {
+        img {
+          width: 40px;
+        }
+      }
+      img {
+        width: 30px;
+      }
       img {
         width: 100%;
       }
