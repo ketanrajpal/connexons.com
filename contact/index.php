@@ -30,13 +30,13 @@ header("Location: http://www.connexons.com");
   
    <h1>Quick Links</h1>
     <ul>
-      <li><a href="../contact/reach-us-at"><span class="fa fa-share"></span>Reach us at</a></li>
+      <!--<li><a href="../contact/reach-us-at"><span class="fa fa-share"></span>Reach us at</a></li>-->
       <li><a href="../contact/enquire-now"><span class="fa fa-share"></span>Enquire Now</a></li>
     </ul>
   
   </article>
   <article>
-  <?php if($_GET["slug"]=="enquire-now"){ ?>
+  <?php //if($_GET["slug"]=="enquire-now"){ ?>
   <h1>Enquire Now</h1>
   <p>You can write to us regarding any queries you may have regarding the services. You are also welcome to provide us with your valuable Feedback. We will respond to you within 24 hours' time.</p>
   <form id="contact-page" method="post" action="" onSubmit="return alert('Thankyou for your Enquiry.\n We will get back to you within 24-48hrs.')">
@@ -65,15 +65,15 @@ header("Location: http://www.connexons.com");
     <input type="hidden" id="client_ip" name="client_ip" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>">
     <input type="submit" value="Submit">
   </form>
-  <?php } else { ?>
+  <?php //} else { ?>
   
-  <h1>Reach us at</h1>
+  <!--<h1>Reach us at</h1>
   
   <h2>Regd. Office:</h2>
   <p>Connexons Tourism Services<br>261, 1st Floor, Lane no 5, Westend Marg, Saidulajab, New Delhi - 110030, India<br/>
       Phone : +91-7290050766 <br>Email: <a href="mailto:munish@connexons.com">munish@connexons.com</a> / <a href="mailto:zareen@connexons.com">zareen@connexons.com</a>
-  </p>
-  <?php } ?>
+  </p>-->
+  <?php //} ?>
    
   </article>
   
