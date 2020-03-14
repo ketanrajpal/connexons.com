@@ -39,16 +39,12 @@
     });</script>
 <?php if ($page == "contact" || $page == "enquire-now") {
     ?>
-
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14018.771318144207!2d77.21559174603271!3d28.548951119720027!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2815541998b26db2!2sConnexons+Travel+(India)+Pvt.+Ltd.!5e0!3m2!1sen!2sin!4v1447931554098"
             width="100%" height="500" frameborder="0" style="border:0"></iframe>
     <?php
 } else if ($page == "tours") {
-
     if (isset($_GET["slug"])) {
-
         ?>
-
         <section id="topimg"><img src="../blog/wp-content/uploads/<?php echo slide_image(); ?>" width="100%;"></section>
         <?php
     } else {
